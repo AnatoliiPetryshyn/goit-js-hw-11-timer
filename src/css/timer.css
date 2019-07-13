@@ -1,0 +1,34 @@
+.timer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  width: 50rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.value {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.label {
+  color: #cccccc;
+}
